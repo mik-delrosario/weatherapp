@@ -85,7 +85,6 @@
 			},
 			goto: function(){
 				var s = this.generatedFields.search.value;
-				alert('goto: '+s);
 				//this.$route.router.go('/weather/'+s);
 				location.href = '/search/'+s;
 			},
